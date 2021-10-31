@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap');
+
+* {
+  font-family: 'Urbanist', sans-serif;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("img/cambio.png");
+  background-color: rgb(29, 29, 29);
+  background-size: 60vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  border-bottom: 10px;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 220px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+label {
+  color: white;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: #ffffff;
+  transition: 0.3s;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+button:hover {
+  background: #BDB76B;
+  font-weight: bold;
+  
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 30px;
+  background-color: #FFDEAD;
+}
+
+.conversor {
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  scale: 100px;
+}
+
+#valorConvertido {
+  background-color: #FADA06;
+  color: 	#4F4F4F;
+  border-radius: 15px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-weight: 900;
+}
+
+#valor {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.valor-multiplicado {
+  font-size: 13px;
+}
